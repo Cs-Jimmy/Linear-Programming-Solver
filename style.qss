@@ -1,0 +1,117 @@
+/* ---------- BASE ---------- */
+QWidget {
+    background-color: #202225;
+    color: #f2f3f5;
+    font-family: "Segoe UI";
+    font-size: 14px;
+}
+
+/* Labels */
+QLabel {
+    color: #f2f3f5;
+    font-size: 14px;
+}
+
+/* ---------- INPUTS ---------- */
+QLineEdit, QTextEdit {
+    background-color: #2f3136;
+    color: #f2f3f5;
+    border: 1px solid #3a3c43;
+    border-radius: 6px;
+    padding: 6px;
+}
+
+QLineEdit:focus, QTextEdit:focus {
+    border: 1px solid #5865f2; /* soft highlight */
+    background-color: #34363c;
+}
+
+/* ---------- BUTTONS ---------- */
+QPushButton {
+    background-color: #5865f2;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 6px;
+    border: none;
+}
+
+QPushButton:hover {
+    background-color: #4752c4;
+}
+
+QPushButton:pressed {
+    background-color: #3c43a4;
+}
+
+/* Secondary buttons (optional) */
+QPushButton#secondary {
+    background-color: #2f3136;
+    border: 1px solid #3a3c43;
+}
+QPushButton#secondary:hover {
+    background-color: #3a3c43;
+}
+
+/* ---------- COMBOBOX ---------- */
+QComboBox {
+    background-color: #2f3136;
+    color: #f2f3f5;
+    border: 1px solid #3a3c43;
+    padding: 6px;
+    border-radius: 6px;
+}
+
+QComboBox:hover {
+    border: 1px solid #5865f2;
+}
+
+/* Combo dropdown */
+QComboBox QAbstractItemView {
+    background-color: #2f3136;
+    border: 1px solid #3a3c43;
+    selection-background-color: #5865f2;
+    color: #f2f3f5;
+}
+
+/* ---------- TABLES ---------- */
+QTableWidget {
+    background-color: #2f3136;
+    gridline-color: #3a3c43;
+    border: 1px solid #3a3c43;
+    border-radius: 6px;
+}
+
+QHeaderView::section {
+    background-color: #202225;
+    color: #f2f3f5;
+    padding: 6px;
+    border: none;
+}
+
+QTableWidget::item {
+    padding: 6px;
+}
+
+/* ---------- SCROLLBARS ---------- */
+QScrollBar:vertical {
+    background: #202225;
+    width: 10px;
+}
+
+QScrollBar::handle:vertical {
+    background: #4a4c52;
+    border-radius: 4px;
+}
+QScrollBar::handle:vertical:hover {
+    background: #5865f2;
+}
+
+QScrollBar:horizontal {
+    background: #202225;
+    height: 10px;
+}
+
+QScrollBar::handle:horizontal {
+    background: #4a4c52;
+    border-radius: 4px;
+}
