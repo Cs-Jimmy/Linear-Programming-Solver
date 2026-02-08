@@ -1,7 +1,5 @@
 # Linear Programming Solver
 
-## Overview
-
 Linear programming is a method for finding the best possible outcome when working with limited resources. It is a key tool in operations research, helping to optimize resource allocation and achieve the most efficient solutions. Real-world problems often involve limited resources, and linear programming helps determine the optimal way to use them.  
 
 This application was built to make that concept easier to explore by letting users define objectives, apply constraints, and instantly see optimal solutions, with graphical visualization available for two-variable cases. It can be applied to production planning, resource allocation, scheduling, and many other scenarios where making the best decisions with limited resources is crucial.
@@ -36,8 +34,6 @@ You can install them all at once using:
 pip install -r requirements.txt
 ```
 
-## Usage
-
 ### Clone the repository
 
 ```bash
@@ -55,7 +51,19 @@ cd Linear-Programming-Solver
 python main.py
 ```
 
-## Screenshots
+## Usage Example
+
+**Scenario:** Factory produces Chairs (X1) and Tables (X2)
+
+| Element | Details |
+|---------|---------|
+| **Objective** | Maximize Z = 40X1 + 70X2 |
+| **Constraints** | 2X1 + 3X2 ≤ 100 (Wood)<br>1X1 + 2X2 ≤ 80 (Labor)<br>X1, X2 ≥ 0 |
+| **Solution** | Z = 1600, X1 = 20, X2 = 20 |
+
+**Result:** Produce **20 Chairs** and **20 Tables** for maximum profit. Click **View Graph** to visualize the feasible region.
+
+## Demo
 
 1. **Initial Setup**  
    ![Initial Setup](screenshots/empty_interface.png)  
