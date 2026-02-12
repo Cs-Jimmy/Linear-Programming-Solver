@@ -50,6 +50,20 @@ cd Linear-Programming-Solver
 ```bash
 python main.py
 ```
+## Project Structure
+```
+Linear-Programming-Solver/
+│
+├── main.py
+├── gui.py
+├── solver.py
+├── plotter.py
+├── style.qss
+├── requirements.txt
+├── screenshots/
+├── .gitignore
+└── README.md
+```
 
 ## Usage Example
 
